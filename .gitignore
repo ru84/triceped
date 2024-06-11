@@ -35,5 +35,8 @@ coverage.out
 *.tmp
 *.bak
 
+# Any temporary file
+*~
+
 # Other
 .env
