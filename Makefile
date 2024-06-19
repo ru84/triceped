@@ -6,7 +6,7 @@ GOOS ?= $(shell go env GOOS)
 GOARCH ?= $(shell go env GOARCH)
 
 # Targets
-.PHONY: all build run clean test fmt lint
+.PHONY: all build clean test fmt lint
 
 all: build ## Default target: Build the application
 
@@ -14,10 +14,6 @@ build: $(GO_FILES) ## Build the application
 	@echo "Building $(APP_NAME)..."
 	@mkdir -p $(BUILD_DIR)
 	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -o $(BUILD_DIR)/$(APP_NAME) ./cmd/...
-
-run: build ## Run the application
-	@echo "Running $(APP_NAME)..."
-	@$(BUILD_DIR)/$(APP_NAME)
 
 clean: ## Clean build artifacts
 	@echo "Cleaning up..."
