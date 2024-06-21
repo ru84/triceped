@@ -1,5 +1,4 @@
 [![Build Status](https://github.com/ru84/triceped/actions/workflows/build.yml/badge.svg)](https://github.com/ru84/triceped/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/ru84/triceped/branch/main/graph/badge.svg)](https://codecov.io/gh/ru84/triceped)
 [![Open Issues](https://img.shields.io/github/issues/ru84/triceped?label=issues)](https://github.com/ru84/triceped/issues)
 
 # Triceped
