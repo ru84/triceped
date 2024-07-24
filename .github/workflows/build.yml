@@ -28,5 +28,8 @@ jobs:
       - name: Build
         run: make build
 
+      - name: Run Linter
+        run: make lint
+
       - name: Run Tests
         run: make test
