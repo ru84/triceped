@@ -3,6 +3,17 @@
 
 # Triceped
 
+```
+  _______     _                              _
+ |__   __|   (_)                            | |
+    | | _ __  _   ___  ___  _ __    ___   __| |
+    | || '__|| | / __|/ _ \| '_ \  / _ \ / _` |
+    | || |   | || (__|  __/| |_) ||  __/| (_| |
+    |_||_|   |_| \___|\___|| .__/  \___| \__,_|
+                           | |
+                           |_|
+```
+
 **triceped** is a command-line tool written in Go that converts Terraform configurations into Azure Bicep templates. Designed to simplify the migration process, triceped helps organizations transition from Terraform to Bicep for Azure infrastructure deployments with minimal effort.
 
 By parsing Terraform's HCL code, triceped generates equivalent Bicep files, enabling you to leverage Azure's native Infrastructure as Code (IaC) language while preserving your existing infrastructure definitions.
